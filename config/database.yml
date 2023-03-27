@@ -81,6 +81,6 @@ test:
 #
 production:
   <<: *default
-  database: hellorails_production
-  username: hellorails
-  password: <%= ENV["HELLORAILS_DATABASE_PASSWORD"] %>
+  database: microverse
+  username: microverse
+  password: <%= ENV["hellorails_DATABASE_PASSWORD"] %>
